@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{B0BC0B09-5D46-4B50-9C35-4841AC7AFB98}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{4A940D34-1058-4052-99FA-10F9B5833B69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{17FD2DC1-CD6E-4B3E-ADA0-98A6CCA8AA62}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\ABOUT.md = Dlls\ABOUT.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{6E76E275-8662-47FF-B357-19A8ECD04864}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{56331F3C-4956-4373-9C53-18643D7726D8}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{F63C9552-3849-4A06-94F2-3FBAE2CDC602}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{5E597181-6BBB-439D-9467-BA6C52E9251A}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SLC-AS-EPM_I_DOCSIS_CreateCbr8CcapMeasPoints", "SLC-AS-EPM_I_DOCSIS_CreateCbr8CcapMeasPoints", "{8E0B3060-852D-4CE1-BCB2-9F309542A99A}"
+	ProjectSection(SolutionItems) = preProject
+		SLC-AS-EPM_I_DOCSIS_CreateCbr8CcapMeasPoints.xml = SLC-AS-EPM_I_DOCSIS_CreateCbr8CcapMeasPoints.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{BACDCD1A-3776-4780-A83C-33C379C0ED43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLC-AS-EPM_I_DOCSIS_CreateCbr8CcapMeasPoints_1", "SLC-AS-EPM_I_DOCSIS_CreateCbr8CcapMeasPoints_1\SLC-AS-EPM_I_DOCSIS_CreateCbr8CcapMeasPoints_1.csproj", "{690D10BC-683F-4B57-961F-D4064B9CF6B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{690D10BC-683F-4B57-961F-D4064B9CF6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690D10BC-683F-4B57-961F-D4064B9CF6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690D10BC-683F-4B57-961F-D4064B9CF6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690D10BC-683F-4B57-961F-D4064B9CF6B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56331F3C-4956-4373-9C53-18643D7726D8} = {6E76E275-8662-47FF-B357-19A8ECD04864}
+		{5E597181-6BBB-439D-9467-BA6C52E9251A} = {B0BC0B09-5D46-4B50-9C35-4841AC7AFB98}
+		{8E0B3060-852D-4CE1-BCB2-9F309542A99A} = {4A940D34-1058-4052-99FA-10F9B5833B69}
+		{BACDCD1A-3776-4780-A83C-33C379C0ED43} = {8E0B3060-852D-4CE1-BCB2-9F309542A99A}
+		{690D10BC-683F-4B57-961F-D4064B9CF6B0} = {BACDCD1A-3776-4780-A83C-33C379C0ED43}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {631CD206-BAD8-4780-8264-105FCDB18940}
+	EndGlobalSection
+EndGlobal
