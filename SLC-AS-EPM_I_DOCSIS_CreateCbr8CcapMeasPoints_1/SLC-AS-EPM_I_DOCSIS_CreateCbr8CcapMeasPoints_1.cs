@@ -80,7 +80,7 @@ namespace SLCASEPMIDOCSISCreateCbr8CcapMeasPoints_1
 			{
 				var portsString = element.GetStandaloneParameter<string>((int)Cbr8CcapParams.InterfacesList).GetValue();
 				if (portsString.IsNullOrEmpty())
-                {
+				{
 					continue;
 				}
 
