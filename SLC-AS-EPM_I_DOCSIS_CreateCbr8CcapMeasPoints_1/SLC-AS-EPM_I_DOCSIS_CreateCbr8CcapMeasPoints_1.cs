@@ -76,7 +76,7 @@ namespace SLCASEPMIDOCSISCreateCbr8CcapMeasPoints_1
 		{
 			var dms = engine.GetDms();
 			var elements = dms.GetElements().ToList();
-			foreach (var element in elements.Where(x => x.Protocol.Name.Equals("CISCO CBR-8 CCAP UTSC") && x.Protocol.Version.Equals("Production")))
+			foreach (var element in elements.Where(x => x.State.Equals(ElementState.Active) && x.Protocol.Name.Equals("CISCO CBR-8 CCAP UTSC") && x.Protocol.Version.Equals("Production")))
 			{
 				var portsString = element.GetStandaloneParameter<string>((int)Cbr8CcapParams.InterfacesList).GetValue();
 				if (portsString.IsNullOrEmpty())
